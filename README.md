@@ -4,7 +4,8 @@
 
 
 Code:
-[![Everything Is AWESOME] (cover picture.jpg)](https://www.youtube.com/watch?v=XkdEMrCjJpE&feature=youtu.be "Example implementation")
+[![Example Implementation] (https://3.bp.blogspot.com/-6u9AgE2X0AU/VvdS_wV8skI/AAAAAAAADBk/JqM1eZ8O-UUmUzuUxWjIRLrcFe9td6sZQ/s1600/Os%2Bdonos%2Bda%2Bbola%2Bao%2Bvivo%2BYoutube.png
+)](https://www.youtube.com/watch?v=XkdEMrCjJpE&feature=youtu.be "Example implementation")
 
 • Description: During the pandemic, we all concern about public health safety, but social justice is crucial and should not be forgotten. From the past up until now people in the United States have been treated unequally. With these two situations, this project prepares the data from Tweeter social media using hashtag and the location to trace where the demonstration occurs as well as the data from Kaggle website to check which location has high corona virus cases. You can make the application buy using these datasets
 	
