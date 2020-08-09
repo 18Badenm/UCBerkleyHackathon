@@ -2,23 +2,9 @@
 
 • Project name: Social Justice During the COVID-19 
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
-
-Explanation of the Markdown
-If this markup snippet looks complicated, break it down into two parts:
-
-an image
-![image alt text](https://example.com/link-to-image)
-wrapped in a link
-[link text](https://example.com/my-link "link title")
-
-Example using Valid Markdown and YouTube Thumbnail:
-Everything Is AWESOME
-
-We are sourcing the thumbnail image directly from YouTube and linking to the actual video, so when the person clicks the image/thumbnail they will be taken to the video.
 
 Code:
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+[![Everything Is AWESOME]](https://www.youtube.com/watch?v=XkdEMrCjJpE&feature=youtu.be "Everything Is AWESOME")
 
 • Description: During the pandemic, we all concern about public health safety, but social justice is crucial and should not be forgotten. From the past up until now people in the United States have been treated unequally. With these two situations, this project prepares the data from Tweeter social media using hashtag and the location to trace where the demonstration occurs as well as the data from Kaggle website to check which location has high corona virus cases. You can make the application buy using these datasets
 	
