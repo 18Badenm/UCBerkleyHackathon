@@ -230,13 +230,19 @@ fig.show()
 
 ```
 
-//Add picture of the output
+// picture of the output
 ```ruby
 fig = px.sunburst(covid_latest, path=['state','county'], values = 'cases')
 fig.update_layout(title = "COVID-19 Cases by State, County as of " + three_days_back)
 fig.show()
 
 ```
-//And picture of the output
+// picture of the output
 
 For the visualizations, please refer to COVID-19.ipynb (https://github.com/18Badenm/UCBerkleyHackathon/blob/master/COVID-19.ipynb)!
+
+This is an example of the implemetaion that made fron these datasets
+
+<video width="320" height="240" controls>
+  <source src="Example inplemetation.mp4" type="video/mp4">
+</video>
