@@ -238,3 +238,5 @@ fig.show()
 
 ```
 //And picture of the output
+
+For the visualizations, please refer to COVID-19.ipynb (https://github.com/18Badenm/UCBerkleyHackathon/blob/master/COVID-19.ipynb)!
