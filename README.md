@@ -10,3 +10,57 @@
 
 •	Usage: Importing all necessarily libraries
 
+```ruby
+	import http.client 
+	import mimetypes
+	import json
+	import matplotlib.pyplot as plt
+	import numpy as np
+	from wordcloud import WordCloud, STOPWORDS 
+	import matplotlib.pyplot as plt 
+	import pandas as pd 
+	import mimetypes
+
+```
+
+Request HTTP to connect the tweeter’s API and get the response data as a JSON file (you can choose the type of the file you want API to repose to you). Replace #add bearer key to your barer token and # add personalization to you personalization id
+
+
+```ruby
+conn = http.client.HTTPSConnection("api.twitter.com")
+payload = ''
+headers = {
+  'Authorization': 'Bearer', #add bearer key
+  'Cookie': 'personalization_id="'# add personalization
+}
+conn.request("GET", "/1.1/search/tweets.json?q=BlackLivesMatter%20since:2020-05-20&lang=en&%23protestl&result_type=recent", payload, headers)
+res = conn.getresponse()
+data = res.read()
+#print(data.decode("utf-8"))
+
+unstructured_tweets = json.loads(data)
+indent_tweets = json.dumps(json.loads(data), indent=2)
+#print(indent_tweets)
+#print(unstructured_tweets)
+data = json.loads(indent_tweets)
+
+with open('tweets.json', 'w') as f:
+    json.dump(data, f, indent=4)
+
+text = ''
+with open("game.txt", "w", encoding='utf-8') as text_file:
+    for status in data['statuses']:
+        text += status['text']
+        text += ' '
+        print(status['text'])
+        text_file.write(status['text'])
+
+
+```
+
+
+Sample output from code above
+
+```ruby
+
+```
