@@ -3,8 +3,8 @@
 • Project name: Social Justice During the COVID-19 
 
 
-[![Youtube Video Demonstration(https://cdn.vox-cdn.com/thumbor/WIdiE9xrh4PNzvUapQCTS672s48=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10581015/acastro_180403_1777_youtube_0001.jpg)](https://www.youtube.com/watch?v=XkdEMrCjJpE&feature=youtu.be
- "Video Title")
+[![Youtube Video Demonstration(https://www.youtube.com/watch?v=XkdEMrCjJpE&feature=youtu.be
+ "Hackathon Video")
 
 
 • Description: During the pandemic, we all concern about public health safety, but social justice is crucial and should not be forgotten. From the past up until now people in the United States have been treated unequally. With these two situations, this project prepares the data from Tweeter social media using hashtag and the location to trace where the demonstration occurs as well as the data from Kaggle website to check which location has high corona virus cases. You can make the application buy using these datasets
