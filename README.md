@@ -4,7 +4,7 @@
 
 
 Code:
-[![Everything Is AWESOME]](https://www.youtube.com/watch?v=XkdEMrCjJpE&feature=youtu.be "Everything Is AWESOME")
+[![Everything Is AWESOME] (https://github.com/18Badenm/UCBerkleyHackathon/blob/master/cover%20picture.JPG)](https://www.youtube.com/watch?v=XkdEMrCjJpE&feature=youtu.be "Everything Is AWESOME")
 
 • Description: During the pandemic, we all concern about public health safety, but social justice is crucial and should not be forgotten. From the past up until now people in the United States have been treated unequally. With these two situations, this project prepares the data from Tweeter social media using hashtag and the location to trace where the demonstration occurs as well as the data from Kaggle website to check which location has high corona virus cases. You can make the application buy using these datasets
 	
