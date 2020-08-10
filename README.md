@@ -1,4 +1,4 @@
-# Plexhacks 2020  - UCBerkleyHackathon
+# Plexhacks 2020  - UCBerkeleyHackathon
 
 • Project name: Social Justice During the COVID-19 Pandemic
 
