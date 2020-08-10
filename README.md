@@ -245,7 +245,7 @@ fig.show()
 
 For the visualizations, please refer to COVID-19.ipynb (https://github.com/18Badenm/UCBerkleyHackathon/blob/master/COVID-19.ipynb)!
 
-This is an example of the implemetaion that made fron these datasets
+This is an example of the implementation done from the **New York Times** 'live' dataset
 
 <video width="320" height="240" controls>
   <source src="Example inplemetation.mp4" type="video/mp4">
