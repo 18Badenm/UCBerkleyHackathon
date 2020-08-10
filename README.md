@@ -1,6 +1,6 @@
-# UCBerkleyHackathon
+# Plexhacks 2020  - UCBerkleyHackathon
 
-• Project name: Social Justice During the COVID-19 
+• Project name: Social Justice During the COVID-19 Pandemic
 
 
 [![Youtube Video Demonstration(https://www.youtube.com/watch?v=XkdEMrCjJpE&feature=youtu.be
