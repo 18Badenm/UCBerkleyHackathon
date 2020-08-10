@@ -7,12 +7,12 @@
  "Hackathon Video")
 
 
-• Description: During the pandemic, we all concern about public health safety, but social justice is crucial and should not be forgotten. From the past up until now people in the United States have been treated unequally. With these two situations, this project prepares the data from Tweeter social media using hashtag and the location to trace where the demonstration occurs as well as the data from Kaggle website to check which location has high corona virus cases. You can make the application buy using these datasets
+• Description: During the COVID-19 pandemic, we are all concerned about public health and safety, but social justice is crucial and should not be forgotten. From the past up till now, people in the United States have been treated unequally. With these two situations in mind, this project prepares the data from the Twitter social media site using hashtags and user locations to trace where demonstrations occur as well as the data from the Kaggle website (primary source: The New York Times) to check which location has a high number of corona virus cases. You can make API requests and create data visualizations by using these datasets.
 	
-•	Installation: No need to install, what you need to do is to apply for a developer account in Tweeter (https://developer.twitter.com/en/docs...)  if you want you can install a JupiterLab in your local computer but you can also run it online.  https://hub.gke.mybinder.org/user/jupyterlab-jupyterlab-demo-2d0hqm4r/lab  
+•Installation: No need to install, what you need to do is to apply for a developer account in Twitter (https://developer.twitter.com/en/docs...). If you want, you can install JupyterLab in your local computer. Alternatively, you can run JupyterLab online.  https://hub.gke.mybinder.org/user/jupyterlab-jupyterlab-demo-2d0hqm4r/lab  
 
 
-•	Usage: Importing all necessarily libraries
+•	Usage: Importing all necessary libraries
 
 ```ruby
 	import http.client 
@@ -27,7 +27,7 @@
 
 ```
 
-Request HTTP to connect the tweeter’s API and get the response data as a JSON file (you can choose the type of the file you want API to repose to you). Replace #add bearer key to your barer token and # add personalization to you personalization id
+HTTP GET request to connect to the Twitter API and get response data in JSON format. Replace #add bearer key with your bearer token and # add personalization to your personalization id
 
 
 ```ruby
@@ -61,7 +61,7 @@ with open("game.txt", "w", encoding='utf-8') as text_file:
 ```
 
 
-Sample output from code above
+Sample output from the code above
 
 ```ruby
 We are living in 21st century and there is racism in the world which  caused the protest for black rights with… https://t.co/y6CclKtATO
@@ -92,7 +92,7 @@ RT @ColorOfChange: CEOs in ivory towers “support” of #BlackLivesMatter means
 RT @CrunchyConserv3: We lost an officer this week, he was retired navy, a 20+ year officer, a youth football coach, a husband &amp; father. Sup…
 The Proud Boys are apart of the @MLB now? Disgusting, @Athletics! His lame excuse will not work! Ryan Christenson i… https://t.co/l7KyCB4GG1
 ```
-We will get rid of bad character- in this part you can customize it.
+We will get rid of bad characters - this part can be customized to your preference.
 
 ```ruby
 	comment_words = ''
@@ -111,13 +111,13 @@ We will get rid of bad character- in this part you can customize it.
 	print(comment_words)
 
 ```
-We get this output after running above code. 
+We get this output after running the above code. 
 
 ```ruby
 living century there racism world which caused protest black rights with… https//t.co/y6cclktato @lady44sassy #blacklivesmatter nothing ..always attack packs, cowardly one... surroundin… #blacklivesmatter protests showed people world tired racism discrimination. want… https//t.co/mna8oioqax @bkcashmere "what's going #linkinbio https//t.co/n2dmyqtjbx subscribe channel #newvideo #film #videogame… today white generally enjoy talking don’t agree https//t.co/a0tjwqwpbv @marxistkittycat follow follow twitter let's 🐢slowly surely 🐢 @marxistkittycat #n… @kenmagukkie since slowly fading other social media’s, here’s thread+petitions #blacklives… @sjdkennington thanks ⁦@utcai_⁩ leadership inspiration. bring things change together @btsloonapop hallyu eventually koreans educate themselves other cultures #나는_샘_오취리와_연대합니다 #i_stand_with_sam_… @sailorrooscout psst. #blacklivesmatter always relevant. going away. keep protesting. keep signing peti… #blacklivesmatter protests showed people world tired racism discrimination. want… https//t.co/dvmfzhywod living century there racism world which caused protest black rights with… https//t.co/wn31hnpbxg @colorofchange ivory towers “support” #blacklivesmatter means nothing don’t funds their disposal @crunchyconserv3 officer week, retired navy, officer, youth football coach, husband father. proud apart disgusting, @athletics excuse christenson https//t.co/l7kycb4gg1 
 ```
 
-Then you can use this dataset to work with your project, in this example we make a data visualization of the popular word on people tweets using word cloud library. 
+After mining the data from the Twitter API, you can use the obtained data in your project. In this example, we make a Word Cloud depicting the sentiments of the general populace on Twitter regarding the Black Lives Matter movement. 
 
 ```ruby
 	wordcloud = WordCloud(width = 800, height = 800, 
@@ -133,7 +133,7 @@ Then you can use this dataset to work with your project, in this example we make
 
 ```
 
-We use another dataset to analyze COVID-19 cases. We import all libraries we need and take the live dataset from Kaggle.com select portion of data you want to work with in this case we want three days back data.
+We use another dataset to analyze COVID-19 cases. We import all the libraries we need and obtain the live dataset from Kaggle.com (primary source: New York Times). Select a portion of the data you want to work with - in this case we want data from three days back from the present date.
 
 ```ruby
 import numpy as np
@@ -160,7 +160,7 @@ print(covid_state_total)
 
 ```
 
-We will get data of cases in each state
+We will get data of COVID-19 cases in each state in the US
 
 ```ruby
                        state   cases  deaths
@@ -221,7 +221,7 @@ We will get data of cases in each state
 54                   Wyoming    2923      27
 
 ```
-Now we are going to make a data visualization and will use it for the application 
+Now we are going to make a data visualization and we will use it for the application 
 
 ```ruby
 fig = go.Figure(data=[
@@ -245,7 +245,7 @@ fig.show()
 
 For the visualizations, please refer to COVID-19.ipynb (https://github.com/18Badenm/UCBerkleyHackathon/blob/master/COVID-19.ipynb)!
 
-This is an example of the implementation done from the **New York Times** 'live' dataset
+This is an example of the implementation done from the **New York Times** 'live' COVID-19 dataset
 
 <video width="320" height="240" controls>
   <source src="Example inplemetation.mp4" type="video/mp4">
